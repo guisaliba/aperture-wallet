@@ -19,7 +19,10 @@ Essa aplicação foi construida baseada nos ensinamentos da trilha Ignite ReactJ
 <br>
 
 <p align="center">
-  <img alt="rocketpay" src=".github/aperturepayupdated.png" width="100%">
+  <img alt="aperturewallet" src=".github/aperturewallet-light.png" width="100%">
+</p>
+<p align="center">
+  <img alt="aperturewallet" src=".github/aperturewallet-dark.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias

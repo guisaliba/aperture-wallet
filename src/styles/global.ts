@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
+
 export const GlobalStyle = createGlobalStyle`
   :root {
     --purple-background: #3a0ca3;

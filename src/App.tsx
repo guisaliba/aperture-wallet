@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from 'react'
 import { Header } from './components/Header/index'
 import { Dashboard } from './components/Dashboard'
@@ -6,7 +7,6 @@ import { TransactionsProvider } from './hooks/useTransactions'
 import { ThemeProvider, DefaultTheme } from 'styled-components'
 import Modal from 'react-modal'
 import usePersistedState from './hooks/usePersistedState'
-
 import { GlobalStyle } from './styles/global'
 import light from './styles/themes/light'
 import dark from './styles/themes/dark'

@@ -36,7 +36,7 @@ export function Header({
           height={10}
           width={30}
           handleDiameter={4}
-          offColor={shade(0.15, colors.primary)}
+          offColor={colors.primary && shade(0.15, colors.primary)}
           onColor={colors.secondary}
         />
         <button type="button" onClick={onOpenNewTransactionModal}>

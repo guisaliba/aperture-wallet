@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { useState } from 'react'
 import { Header } from './components/Header/index'
 import { Dashboard } from './components/Dashboard'
@@ -8,15 +7,19 @@ import { ThemeProvider, DefaultTheme } from 'styled-components'
 import Modal from 'react-modal'
 import usePersistedState from './hooks/usePersistedState'
 import { GlobalStyle } from './styles/global'
-import light from './styles/themes/light'
-import dark from './styles/themes/dark'
+import { lightTheme } from './styles/themes/light'
+import { darkTheme } from './styles/themes/dark'
 
 Modal.setAppElement('#root')
 
 export function App() {
-  const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light)
+  const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', lightTheme)
   const toggleTheme = () => {
-    setTheme(theme.title === 'light' ? dark : light)
+    setTheme(
+      theme.title === 'light'
+        ? { ...theme, ...darkTheme }
+        : { ...theme, ...lightTheme }
+    )
   }
 
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] =

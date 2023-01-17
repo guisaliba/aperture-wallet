@@ -1,4 +1,6 @@
-export default {
+import { DefaultTheme } from "styled-components";
+
+export const darkTheme: Partial<DefaultTheme> = {
   title: 'dark',
 
   colors: {
@@ -19,6 +21,6 @@ export default {
     tabletext: '#F0F2F5',
 
     logo: '#4CABE6'
-    
+
   },
 }

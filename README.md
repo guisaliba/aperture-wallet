@@ -1,4 +1,5 @@
 # aperture-wallet
+
 <h1 align="center"> ApertureWallet </h1>
 
 <p align="center">
@@ -37,7 +38,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-A ApertureWallet é uma aplicação construida em ReactJS que funciona como uma carteira virtual. Nela é possível registrar gastos, entradas, nomear e listar cada transação por categoria. Além disso, a wallet calcula e faz o balanço do saldo do usuário sozinha a cada alteração. Feita e inspirada a partir dos ensinamentos da trilha Ignite ReactJS da Rocketseat. Obrigado ao educador Diego Fernandes e toda equipe da Rocketseat.
+A ApertureWallet é uma aplicação construida em ReactJS que funciona como uma carteira virtual. Nela é possível registrar gastos, entradas, nomear e listar cada transação por categoria. Além disso, a wallet calcula e faz o balanço do saldo do usuário sozinha a cada alteração. Feita e inspirada a partir dos ensinamentos da trilha Ignite ReactJS da Rocketseat.
+Obrigado ao educador Diego Fernandes e toda equipe da Rocketseat.
 
 ## 🔖 Layout
 
@@ -46,4 +48,3 @@ A ApertureWallet segue apenas a base do design construído pela equipe da Rocket
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
-

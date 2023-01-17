@@ -1,4 +1,6 @@
-export default {
+import { DefaultTheme } from "styled-components";
+
+export const lightTheme: Partial<DefaultTheme> = {
   title: 'light',
 
   colors: {

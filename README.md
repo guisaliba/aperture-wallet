@@ -3,7 +3,8 @@
 <h1 align="center"> ApertureWallet </h1>
 
 <p align="center">
-Essa aplicação foi construida baseada nos ensinamentos da trilha Ignite ReactJS da Rocketseat.
+Essa aplicação foi construida baseada nos ensinamentos da trilha Ignite ReactJS da Rocketseat. <br>
+Você pode conferir e testá-la por esse [link](https://aperture-wallet.vercel.app/).
 </p>
 
 <p align="center">

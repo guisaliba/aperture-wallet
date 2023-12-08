@@ -1,5 +1,3 @@
-# aperture-wallet
-
 <h1 align="center"> ApertureWallet </h1>
 
 <p align="center">
